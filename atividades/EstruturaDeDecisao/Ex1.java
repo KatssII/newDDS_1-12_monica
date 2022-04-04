@@ -7,9 +7,9 @@ public class Ex1 {
         Scanner scanner = new Scanner(System.in);
         Scanner scanner1 = new Scanner(System.in);
         System.out.println("Insira o primeiro número: ");
-        int numero1 = scanner.nextInt();
+        float numero1 = scanner.nextFloat();
         System.out.println("Insira o segundo número: ");
-        int numero2 = scanner.nextInt();
+        float numero2 = scanner.nextFloat();
         if (numero1 > numero2) {
             System.out.print("O numero " + numero1 + " é maior que o número " + numero2);
         }else if (numero2 > numero1)
