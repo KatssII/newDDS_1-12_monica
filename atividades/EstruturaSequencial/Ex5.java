@@ -10,9 +10,7 @@ public class Ex5 {
         Double numeroemmetros = scanner.nextDouble();
         Integer multiplicacao = 100;
         Double numeroemcentimetros = numeroemmetros * multiplicacao;
-
         System.out.print( "Seu numero convertido em metros para centimetros e: " + numeroemcentimetros );
-
         scanner.close();
     }
 }

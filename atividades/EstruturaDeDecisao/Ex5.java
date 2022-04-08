@@ -15,7 +15,11 @@ public class Ex5 {
         } else if (mediaDaNota < 7) {
             System.out.println(("Sua nota foi") + mediaDaNota + (",você foi reprovado. "));
         } else if (mediaDaNota >= 10){
+
             System.out.println(("Sua nota foi") + mediaDaNota + (", você foi a'provado com Distinção. "));
+
+            System.out.println(("Sua nota foi") + mediaDaNota + (", você foi aprovado com Distinção. "));
+
             scanner.close();
         }
 
