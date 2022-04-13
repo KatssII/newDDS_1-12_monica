@@ -14,16 +14,36 @@ public class Ex11 {
         double salarioAumentado700 = 0.15;
         int salarioAte1500 = 1500;
         double salarioAumentado1500 = 0.10;
-        double salarioApos1500 = 0.5;
+        double salarioApos1500 = 0.05;
 
         if (valorAntesReajuste <=280) {
-            int salarioDepoisReajuste = (int) (valorAntesReajuste + (valorAntesReajuste * salarioAumentado280));
-            System.out.println("O seu salário antes do reajuste, era de " + valorAntesReajuste);
-            System.out.println("O percentual, do aumento aplicado, foi de " + salarioAumentado280 + " %");
-            System.out.println("O valor do aumento do seu salário foi de " + (salarioDepoisReajuste - salarioAte280));
+            double salarioDepoisReajuste = (valorAntesReajuste + (valorAntesReajuste * salarioAumentado280));
+            System.out.println("O seu salário antes do reajuste, era de " + valorAntesReajuste + " reais. ");
+            System.out.println("O percentual, do aumento aplicado, foi de 20%. ");
+            System.out.println("O valor do aumento do seu salário foi de " + (salarioDepoisReajuste - valorAntesReajuste) + " reais. ");
             System.out.println("O valor do seu novo salário é de " + salarioDepoisReajuste + " reais.");
 
-        }else  if ((valorAntesReajuste >280) && (valorAntesReajuste <=700));
+        }else  if ((valorAntesReajuste >=280) && (valorAntesReajuste <700)) {
+            double salarioDepoisReajuste = (valorAntesReajuste + (valorAntesReajuste * salarioAumentado700));
+            System.out.println("O seu salário antes do reajuste, era de " + valorAntesReajuste + " reais. ");
+            System.out.println("O percentual, do aumento aplicado, foi de 15%. ");
+            System.out.println("O valor do aumento do seu salário foi de " + (salarioDepoisReajuste - valorAntesReajuste) + " reais. ");
+            System.out.println("O valor do seu novo salário é de " + salarioDepoisReajuste + " reais.");
+
+        }else if ((valorAntesReajuste >=700) && (valorAntesReajuste <1500)) {
+            double salarioDepoisReajuste = (valorAntesReajuste + (valorAntesReajuste * salarioAumentado1500));
+            System.out.println("O seu salário antes do reajuste, era de " + valorAntesReajuste + " reais. ");
+            System.out.println("O percentual, do aumento aplicado, foi de 10%. ");
+            System.out.println("O valor do aumento do seu salário foi de " + (salarioDepoisReajuste - valorAntesReajuste) + " reais. ");
+            System.out.println("O valor do seu novo salário é de " + salarioDepoisReajuste + " reais.");
+
+        }else if (valorAntesReajuste >=1500) {
+            double salarioDepoisReajuste = (valorAntesReajuste + (valorAntesReajuste * salarioApos1500));
+            System.out.println("O seu salário antes do reajuste, era de " + valorAntesReajuste + " reais. ");
+            System.out.println("O percentual, do aumento aplicado, foi de 5%. ");
+            System.out.println("O valor do aumento do seu salário foi de " + (salarioDepoisReajuste - valorAntesReajuste) + " reais. ");
+            System.out.println("O valor do seu novo salário é de " + salarioDepoisReajuste + " reais.");
+        }
 
         scanner.close();
     }
