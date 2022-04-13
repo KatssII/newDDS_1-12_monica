@@ -8,12 +8,12 @@ public class boletim {
         System.out.print("Insira o valor da nota:");
         double valorDaNota = scanner.nextDouble();
 
-        if (valorDaNota > 70 ) {
+        Boolean valordaNota = valorDaNota >= 70;
+
+        if (valordaNota) {
             System.out.println("Parabeéns, você passou de ano!!!!! ");
-        }else if (valorDaNota < 70 ){
-            System.out.println("Que peninha, você reprovou;D Nos vemos ano que vem. ");
         }else {
-            System.out.println(" ERROR ");
+            System.out.println("Que peninha, você reprovou;D Nos vemos no ano que vem. ");
         scanner.close();
         }
 

@@ -11,6 +11,8 @@ public class CompraComDesconto {
         float valorDoProduto = scanner.nextFloat();
         System.out.print("Por favor entre com a quantidade de produtos: ");
         float quantidadeDeProduto = scanner.nextFloat();
+        Float subTotal = valorDoProduto * quantidadeDeProduto;
+
 
     }
 }
