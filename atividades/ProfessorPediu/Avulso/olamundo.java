@@ -1,4 +1,4 @@
-package ProfessorPediu;
+package ProfessorPediu.Avulso;
 
 import java.io.StringWriter;
 import java.util.Scanner;

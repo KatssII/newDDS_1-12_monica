@@ -1,4 +1,4 @@
-package ProfessorPediu;
+package ProfessorPediu.Avulso;
 
 import java.util.Scanner;
 
