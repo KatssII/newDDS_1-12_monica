@@ -1,10 +1,7 @@
-package ProfessorPediu.comecando_orientada_a_objetos.metodo_instancia.metodoInstancia01;
+package ProfessorPediu.programacao_orientada_a_objetos.PrimeiraClasse;
 
 public class Produto {
-
     String nome;
-
     Double precoUnitario;
-
     Integer quantidade;
 }

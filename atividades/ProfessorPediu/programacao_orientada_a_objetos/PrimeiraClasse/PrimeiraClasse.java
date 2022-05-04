@@ -1,4 +1,4 @@
-package ProfessorPediu.comecando_orientada_a_objetos.metodo_instancia.metodoInstancia01;
+package ProfessorPediu.programacao_orientada_a_objetos.PrimeiraClasse;
 
 public class PrimeiraClasse {
 
@@ -12,6 +12,6 @@ public class PrimeiraClasse {
     }
 
     private static void exibirQuantidadeEmEstoque(Produto produto) {
-        System.out.println("Quantidade em estoque do produto " + produto.nome + " é de " + produto.quantidade + " unidade(s). ");
+        System.out.println("Quantidade em estoque do produto " + produto.nome + "é de " + produto.quantidade + " unidade(s)." );
     }
 }

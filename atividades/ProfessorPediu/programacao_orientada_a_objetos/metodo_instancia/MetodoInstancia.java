@@ -1,4 +1,4 @@
-package ProfessorPediu.comecando_orientada_a_objetos.metodo_instancia;
+package ProfessorPediu.programacao_orientada_a_objetos.metodo_instancia;
 
 public class MetodoInstancia {
 
