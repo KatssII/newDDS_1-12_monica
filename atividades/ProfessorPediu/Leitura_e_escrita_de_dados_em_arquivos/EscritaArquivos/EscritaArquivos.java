@@ -1,4 +1,4 @@
-package ProfessorPediu.Leitura_e_escrita_de_dados_em_arquivos;
+package ProfessorPediu.Leitura_e_escrita_de_dados_em_arquivos.EscritaArquivos;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
