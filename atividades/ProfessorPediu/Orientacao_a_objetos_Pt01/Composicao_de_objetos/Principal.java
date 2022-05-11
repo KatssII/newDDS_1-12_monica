@@ -1,4 +1,4 @@
-package ProfessorPediu.Composicao_de_objetos;
+package ProfessorPediu.Orientacao_a_objetos_Pt01.Composicao_de_objetos;
 
 public class Principal {
     public static void main(String[] args) {

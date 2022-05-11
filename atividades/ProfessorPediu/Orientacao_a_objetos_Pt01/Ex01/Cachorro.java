@@ -1,4 +1,4 @@
-package ProfessorPediu.Orientacao_a_objetos.Ex01;
+package ProfessorPediu.Orientacao_a_objetos_Pt01.Ex01;
 
 public class Cachorro {
 

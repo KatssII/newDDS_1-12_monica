@@ -1,4 +1,4 @@
-package ProfessorPediu.Orientacao_a_objetos;
+package ProfessorPediu.Orientacao_a_objetos_Pt01.Revisao;
 
 public class Principal {
     public static void main(String[] args) {
