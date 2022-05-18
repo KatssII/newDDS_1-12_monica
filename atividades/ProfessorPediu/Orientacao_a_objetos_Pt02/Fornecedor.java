@@ -1,6 +1,7 @@
-package ProfessorPediu.o_objeto_this.desafio;
+package ProfessorPediu.Orientacao_a_objetos_Pt02;
 
 public class Fornecedor {
+    String nome;
     public String getNome() {
         return nome;
     }
@@ -9,5 +10,4 @@ public class Fornecedor {
         this.nome = nome;
     }
 
-    String nome;
 }

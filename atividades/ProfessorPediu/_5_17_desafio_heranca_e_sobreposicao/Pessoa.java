@@ -1,6 +1,9 @@
-package ProfessorPediu.o_objeto_this.desafio;
+package ProfessorPediu._5_17_desafio_heranca_e_sobreposicao;
 
-public class Fornecedor {
+public class Pessoa {
+
+    public String nome;
+
     public String getNome() {
         return nome;
     }
@@ -8,6 +11,4 @@ public class Fornecedor {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
-    String nome;
 }
