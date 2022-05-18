@@ -1,4 +1,4 @@
-package ProfessorPediu.Orientacao_a_objetos_Pt01.Ex03;
+package ProfessorPediu.Wrappers_boxing_e_arraysEx03;
 
 public class Estoque {
     Produto[] produtos;

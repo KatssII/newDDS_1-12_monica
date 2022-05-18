@@ -1,20 +1,55 @@
 package ProfessorPediu.o_objeto_this.desafio;
 
 public class ContaPagar {
-    private String descricao;
-    private double valor;
-    private String dataDeVencimento;
-    private String fornecedor;
-
-    public ContaPagar(){
+    public ContaPagar() {
 
     }
 
-    public ContaPagar(String descricao, int valor, String dataDeVencimento, String fornecedor){
-        this.descricao = "Mercado";
-        this.valor = 345;
-        this.dataDeVencimento = "27/12/2022";
-        this.fornecedor = "murilous";
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public Double getValor() {
+        return valor;
+    }
+
+    public void setValor(Double valor) {
+        this.valor = valor;
+    }
+
+    public String getDataVencimento() {
+        return dataVencimento;
+    }
+
+    public void setDataVencimento(String dataVencimento) {
+        this.dataVencimento = dataVencimento;
+    }
+
+    public Fornecedor getFornecedor() {
+        return fornecedor;
+    }
+
+    public void setFornecedor(Fornecedor fornecedor) { this.fornecedor = fornecedor; }
+
+    private String descricao;
+    private Double valor;
+    private String dataVencimento;
+    Fornecedor fornecedor;
+
+
+    public ContaPagar(String descricao, Double valor, String dataDeVencimento, Fornecedor fornecedor){
+        this.descricao = descricao;
+        this.valor = valor;
+        this.dataVencimento = dataDeVencimento;
+        this.fornecedor = fornecedor;
+    }
+
+    public void pagar(){
+        System.out.println("pagando conta " + this.getDescricao() + " no valor de " + this.getValor() + " e vencimento em "+ this.getDataVencimento() + " do fornrcedor " + this.getFornecedor().getNome() + " .");
     }
 
 

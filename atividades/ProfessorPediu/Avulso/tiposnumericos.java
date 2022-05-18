@@ -1,4 +1,4 @@
-package ProfessorPediu;
+package ProfessorPediu.Avulso;
 
 public class tiposnumericos {
     public static void main(String[] args) {

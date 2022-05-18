@@ -1,4 +1,4 @@
-package ProfessorPediu;
+package ProfessorPediu.Avulso;
 import java.util.Scanner;
 public class sjnflnaçmç {
     public static void main(String[] args) {
